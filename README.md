@@ -890,7 +890,7 @@ var singleWord = function (str){
 ```
 Ex:
 Input: [1, 3, 3, 4, 5, 1, 6, 1]
-Output: [4, 5, 6]
+Output: [1, 3, 4, 5, 6]
 ```
 
 <details><summary><b>Answer</b></summary>
