@@ -1253,3 +1253,36 @@ const sumPair = function(input, sum) {
 
 </p>
 </details>
+
+### 36. Write a function that splits a domain name into its subdomains. It should work with any amount of parts. What is your code's time complexity? (using Big O notation O(…)).
+
+```
+Ex:
+
+Input: 
+'www.google.com'
+
+Output:
+['com', 'google.com', 'www.google.com']
+
+Input: 
+'www.calendar.google.com'
+
+Output:
+['com', 'google.com', 'calendar.google.com', 'www.calendar.google.com']
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+```js
+function parts(domain) {
+
+}
+
+console.log(parts('www.google.com'));
+console.log(parts('www.calendar.google.com'));
+```
+
+</p>
+</details>
