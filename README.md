@@ -1277,7 +1277,19 @@ Output:
 
 ```js
 function parts(domain) {
+  const parts = domain.split('.');
+  const len = parts.length;
+  const arr = [];
 
+  for (let i = 0; i < len; i++) {
+    if(arr.length > 0) {
+      arr.push(parts.pop() + "." + arr[i - 1]);
+    } else {
+      arr.push(parts.pop());
+    }
+  }
+
+  return arr;
 }
 
 console.log(parts('www.google.com'));
