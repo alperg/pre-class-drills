@@ -1283,7 +1283,7 @@ function parts(domain) {
 
   for (let i = 0; i < len; i++) {
     if(arr.length > 0) {
-      arr.push(parts.pop() + "." + arr[i - 1]);
+      arr.push(parts.pop() + '.' + arr[i - 1]);
     } else {
       arr.push(parts.pop());
     }
